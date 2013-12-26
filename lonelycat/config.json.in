@@ -1,0 +1,24 @@
+{
+    "trello": {
+        "api_key": "",
+        "token": ""
+    },
+    "lonelycat": {
+        "addr": ":42042",
+        "notificationsFetchDelay": 30,
+        "logFile": "lonelycat.log",
+        "templatesGlob": "templates/*.txt",
+        "boardIrcChanMap": {
+            "Board Art": "#myproject-art",
+            "Board Dev": "#myproject-dev"
+        }
+    },
+    "irc": {
+        "nick": "LonelyCat",
+        "user": "LonelyCat",
+        "addr": "irc.freenode.net:6667",
+        "authorizedNicks": [
+            "MyNick"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{{ define "addedAttachmentToCard" }}{{.MemberCreator.FullName}} attached {{.Data.Attachment.Name}} ({{.Data.Attachment.Url}}) to {{.Data.Card.Name}} (https://trello.com/c/{{.Data.Card.ShortLink}}) in {{.Data.Board.Name}} (https://trello.com/b/{{.Data.Board.ShortLink}}).{{ end }}
+{{ define "addedToBoard" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "addedToCard" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "addedToOrganization" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "addedMemberToCard" }}{{.MemberCreator.FullName}} joined the card {{.Data.Card.Name}} (https://trello.com/c/{{.Data.Card.ShortLink}}) in {{.Data.Board.Name}} (https://trello.com/b/{{.Data.Board.ShortLink}}).{{ end }}
+{{ define "addAdminToBoard" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "addAdminToOrganization" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "changeCard" }}{{.MemberCreator.FullName}} moved the card (https://trello.com/c/{{.Data.Card.ShortLink}}) from {{.Data.ListBefore.Name}} to {{.Data.ListAfter.Name}} in {{.Data.Board.Name}} (https://trello.com/b/{{.Data.Board.ShortLink}}).{{ end }}
+{{ define "closeBoard" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "commentCard" }}{{.MemberCreator.FullName}} commented on the card (https://trello.com/c/{{.Data.Card.ShortLink}}) in {{.Data.Board.Name}} (https://trello.com/b/{{.Data.Board.ShortLink}}): "{{.Data.Text}}".{{ end }}
+{{ define "createdCard" }}{{.MemberCreator.FullName}} created the card (https://trello.com/c/{{.Data.Card.ShortLink}}) in {{.Data.Board.Name}} (https://trello.com/b/{{.Data.Board.ShortLink}}).{{ end }}
+{{ define "invitedToBoard" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "invitedToOrganization" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "removedFromBoard" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "removedFromCard" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "removedMemberFromCard" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "removedFromOrganization" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "mentionedOnCard" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "unconfirmedInvitedToBoard" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "unconfirmedInvitedToOrganization" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "updateCheckItemStateOnCard" }}{{.MemberCreator.FullName}} checked {{.Data.CheckItem.Name}} ({{.Data.CheckItem.State}}) on the card {{.Data.Card.Name}} (https://trello.com/c/{{.Data.Card.ShortLink}}) in {{.Data.Board.Name}} (https://trello.com/b/{{.Data.Board.ShortLink}}).{{ end }}
+{{ define "makeAdminOfBoard" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "makeAdminOfOrganization" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "cardDueSoon" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "declinedInvitationToBoard" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "declinedInvitationToOrganization" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
+{{ define "memberJoinedTrello" }}Event "{{.Type}}" occured on Trello. Helpful, right?{{ end }}
